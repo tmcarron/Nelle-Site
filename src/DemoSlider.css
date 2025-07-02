@@ -1,0 +1,17 @@
+.DemoSlider {
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  width: 100%;
+  justify-content: center;
+}
+
+.DemoSlider .splideContainer iframe {
+  box-sizing: border-box;
+  margin-right: auto;
+  margin-left: auto;
+  object-fit: contain;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
