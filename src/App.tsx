@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <div className="bubbleContainer">
-        <h1>Ja'Nelle Hall</h1>
+        <h1>KreativGeniusCo.</h1>
       </div>
       <div className="bubbleContainer aboutContainer">
         <p>

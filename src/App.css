@@ -14,13 +14,16 @@
 }
 .bubbleContainer.aboutContainer p {
   overflow-x: scroll;
-  max-height: 20vh;
-  padding-top: 500px;
+  max-height: 30vh;
+  padding-top: 100px;
+  overflow-y: scroll;
 }
 .bubbleContainer.aboutContainer {
-  max-height: 20vh;
+  max-height: 50vh;
   margin-top: 50px;
   margin-bottom: 50px;
+  padding: 10px;
+  height: 75vh;
 }
 body {
   font-family: "Roboto Slab", serif;
@@ -116,14 +119,14 @@ a {
 }
 .bubbleContainer.aboutContainer p {
   overflow-y: scroll;
-  height: 80%;
+  height: 90%;
   padding: 10px;
   margin: 20px;
   mask-image: linear-gradient(
     to bottom,
     transparent 0%,
-    black 20%,
-    black 80%,
+    black 10%,
+    black 90%,
     transparent 100%
   );
 }
